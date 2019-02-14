@@ -7,7 +7,7 @@ webserver.
 * docker
 
 # Run 
-`$ docker build -t <name>:<tag> .` # build docker 
-`$ docker run -p <hostport>:<dockerport> <name>:<tag>` # run docker 
-`$ docker ps` # list the running docker 
-`$ docker kill <container-name>` # kill the running container
+`$ docker build -t <name>:<tag> .` -- build docker container
+`$ docker run -p <hostport>:<dockerport> <name>:<tag>` --  run container
+`$ docker ps` -- list the running docker 
+`$ docker kill <container-name>` -- kill the running container
